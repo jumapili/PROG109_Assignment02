@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="author" content="Jumapili A.D. Ikuseghan - 950616048" />
+		<meta name="description" content="Programming 109 - Assignment 2" />
+		<meta name="editor" content="DreamWeaver CS6" />
+        <title>Guess A Number</title>
+		<link rel="stylesheet" type="text/css" media="all" href="css/style.css" />
+		<script src="js/numberguess.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<form>
+				<h1>Let's Play A Game</h1>
+           		<input type="button" value="Start New Game" onClick="window.location.reload()"><br />
+				<label for="guess">Guess a number between 1 and 20</label><br />
+  				<input type="text" id="guess" value="0" />
+  				<input type="button" onclick="yourGuess()" value="submit" /><br />
+				<h1>Your guesses</h1>
+				<textarea id="output" name="output" rows="10" style="width:187px;"></textarea><br /><br />
+        		<div id="jumaImage"></div><br />
+        		<input type="button" value="Start New Game" onClick="window.location.reload()">
+		</form> 
+	</body>
+</html>

@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	align: center;
+	background: #111;
+	color: #666;
+	font: normal normal 12px Arial, Tahoma, Verdana, sans-serif;
+	line-height: 1.6em;
+}
+
